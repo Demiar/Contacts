@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		8A623E802673FCAE00E24F97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E7F2673FCAE00E24F97 /* AppDelegate.swift */; };
 		8A623E822673FCAE00E24F97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E812673FCAE00E24F97 /* SceneDelegate.swift */; };
-		8A623E842673FCAE00E24F97 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E832673FCAE00E24F97 /* ViewController.swift */; };
+		8A623E842673FCAE00E24F97 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E832673FCAE00E24F97 /* ContactsViewController.swift */; };
 		8A623E872673FCAE00E24F97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A623E852673FCAE00E24F97 /* Main.storyboard */; };
 		8A623E892673FCB600E24F97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A623E882673FCB600E24F97 /* Assets.xcassets */; };
 		8A623E8C2673FCB600E24F97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A623E8A2673FCB600E24F97 /* LaunchScreen.storyboard */; };
+		8A623E942673FD2200E24F97 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E932673FD2200E24F97 /* Person.swift */; };
+		8A623E962673FD8400E24F97 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E952673FD8400E24F97 /* DataManager.swift */; };
+		8A623E982674C02600E24F97 /* DetailPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E972674C02600E24F97 /* DetailPersonViewController.swift */; };
+		8A623E9E2675419600E24F97 /* AnotherContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623E9D2675419600E24F97 /* AnotherContactsViewController.swift */; };
+		8A623EA22675FEC000E24F97 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A623EA12675FEC000E24F97 /* TestData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A623E7C2673FCAE00E24F97 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A623E7F2673FCAE00E24F97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A623E812673FCAE00E24F97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A623E832673FCAE00E24F97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A623E832673FCAE00E24F97 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		8A623E862673FCAE00E24F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A623E882673FCB600E24F97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A623E8B2673FCB600E24F97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A623E8D2673FCB600E24F97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A623E932673FD2200E24F97 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		8A623E952673FD8400E24F97 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8A623E972674C02600E24F97 /* DetailPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPersonViewController.swift; sourceTree = "<group>"; };
+		8A623E9D2675419600E24F97 /* AnotherContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherContactsViewController.swift; sourceTree = "<group>"; };
+		8A623EA12675FEC000E24F97 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		8A623E7E2673FCAE00E24F97 /* Contacts */ = {
 			isa = PBXGroup;
 			children = (
+				8A623E9C2675136B00E24F97 /* Storyboards */,
+				8A623E9B2675135700E24F97 /* ViewControllers */,
+				8A623E9A2675134B00E24F97 /* Data */,
+				8A623E992675133E00E24F97 /* Models */,
 				8A623E7F2673FCAE00E24F97 /* AppDelegate.swift */,
 				8A623E812673FCAE00E24F97 /* SceneDelegate.swift */,
-				8A623E832673FCAE00E24F97 /* ViewController.swift */,
-				8A623E852673FCAE00E24F97 /* Main.storyboard */,
 				8A623E882673FCB600E24F97 /* Assets.xcassets */,
-				8A623E8A2673FCB600E24F97 /* LaunchScreen.storyboard */,
 				8A623E8D2673FCB600E24F97 /* Info.plist */,
 			);
 			path = Contacts;
+			sourceTree = "<group>";
+		};
+		8A623E992675133E00E24F97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A623E932673FD2200E24F97 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8A623E9A2675134B00E24F97 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8A623E952673FD8400E24F97 /* DataManager.swift */,
+				8A623EA12675FEC000E24F97 /* TestData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		8A623E9B2675135700E24F97 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8A623E832673FCAE00E24F97 /* ContactsViewController.swift */,
+				8A623E972674C02600E24F97 /* DetailPersonViewController.swift */,
+				8A623E9D2675419600E24F97 /* AnotherContactsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8A623E9C2675136B00E24F97 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8A623E8A2673FCB600E24F97 /* LaunchScreen.storyboard */,
+				8A623E852673FCAE00E24F97 /* Main.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +184,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A623E842673FCAE00E24F97 /* ViewController.swift in Sources */,
+				8A623E842673FCAE00E24F97 /* ContactsViewController.swift in Sources */,
+				8A623E962673FD8400E24F97 /* DataManager.swift in Sources */,
+				8A623E9E2675419600E24F97 /* AnotherContactsViewController.swift in Sources */,
+				8A623E982674C02600E24F97 /* DetailPersonViewController.swift in Sources */,
 				8A623E802673FCAE00E24F97 /* AppDelegate.swift in Sources */,
+				8A623E942673FD2200E24F97 /* Person.swift in Sources */,
 				8A623E822673FCAE00E24F97 /* SceneDelegate.swift in Sources */,
+				8A623EA22675FEC000E24F97 /* TestData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A5GSXMSS8;
 				INFOPLIST_FILE = Contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +349,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +361,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4A5GSXMSS8;
 				INFOPLIST_FILE = Contacts/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +369,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Contacts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
