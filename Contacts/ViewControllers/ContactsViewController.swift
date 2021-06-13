@@ -32,8 +32,6 @@ class ContactsViewController: UITableViewController {
                 controller.person = contact
             }
         }
-        print(self.tabBarController?.viewControllers)
-        (self.tabBarController?.viewControllers?[1] as? AnotherContactsViewController)?.contacts = contacts
     }
 }
 
