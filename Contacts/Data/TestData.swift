@@ -10,4 +10,5 @@ import Foundation
 
 class TestData {
     static let persons = DataManager().persons
+    let integer = 10
 }
